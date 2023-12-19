@@ -1,0 +1,42 @@
+   .main {
+    width: 100%; 
+  }
+  .landing{
+    height: 100vh; 
+    width: 100%;
+    padding-top: 5rem;
+}
+  .left{
+    width: 50%;
+    float: left;
+    padding-top: 8rem;
+  }
+  .right{
+    width: 50%;
+    float: left;
+  }
+
+
+  #landinghead{
+    margin-left: 70px;
+    font-size: 50px;
+    color: white;
+  }
+  
+h1 span {
+  color: #97aaff;
+}
+
+  #landingcontent{
+    margin-left: 70px;
+    width: 80%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #edebeb;
+  }
+
+  #homeimg{
+    width: 23rem;
+    height: 16rem;
+    margin-left: 10rem;
+    margin-top: 7rem;
+  }

@@ -1,0 +1,16 @@
+*{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.full{
+    width: 100%;
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    height: 400vh;
+  }
+
+.navig{
+  width: 100%;
+}
+
+.content{
+    width:100%;
+  }
