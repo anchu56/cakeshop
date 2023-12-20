@@ -5,7 +5,6 @@ a:link,a:active,a:visited,a:hover{
 }
 
 .testimonials{
-    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
     width: 100%;
 }
 .outerdiv
@@ -102,23 +101,15 @@ a:link,a:active,a:visited,a:hover{
 {
 	color: #49505A;
 }
-.detbox .designation
-{
-	color: hsl(0, 0%, 81%);
-    opacity: 50%;
-    font-size: 0.8rem;
-}
-.detbox .designation.dark
-{
-	color: #49505A;
-}
-.review h4
+
+
+.review h4 
 {
 	font-size: 1.4rem;
 	color: #F3DEFF;
     font-weight: 600;
     line-height: 1.5;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1.5rem;
 }
 .review.dark h4{
 	color:#4B5258;
@@ -128,7 +119,7 @@ a:link,a:active,a:visited,a:hover{
 	font-size: 0.95rem;
     color: #F3DEFF;
     font-weight: 500;
-    opacity: 50%;
+    opacity: 75%;
     line-height: 1.5;
 }
 .review.dark p{
