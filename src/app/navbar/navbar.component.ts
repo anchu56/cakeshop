@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ScrollService } from '../services/scroll.service';
 
 @Component({
   selector: 'app-navbar',
@@ -6,6 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
+  constructor(private scrollService: ScrollService) {}
+
+  scrollToSection(section: string) {
+    this.scrollService.scrollToSection(section);
+  }
   isMenuOpen = false;
 
   toggleMenu(): void {

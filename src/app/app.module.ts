@@ -11,6 +11,10 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ProductlistComponent } from './productlist/productlist.component';
 import { FooterComponent } from './footer/footer.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { CombinedviewComponent } from './combinedview/combinedview.component';
+import { LoginactualComponent } from './loginactual/loginactual.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +26,15 @@ import { FooterComponent } from './footer/footer.component';
     ContactusComponent,
     TestimonialsComponent,
     ProductlistComponent,
-    FooterComponent
+    FooterComponent,
+    CombinedviewComponent,
+    LoginactualComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
